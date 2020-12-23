@@ -429,7 +429,7 @@ AR Path="/5FE06856/5FDFE018" Ref="L?"  Part="1"
 AR Path="/5FDFE018" Ref="L12"  Part="1" 
 F 0 "L12" H 7753 4846 50  0000 L CNN
 F 1 "6.8uH(74404042068)" H 7753 4755 50  0000 L CNN
-F 2 "" H 7700 4800 50  0001 C CNN
+F 2 "Ctrl_Arduino:INDPM4040X180N" H 7700 4800 50  0001 C CNN
 F 3 "~" H 7700 4800 50  0001 C CNN
 	1    7700 4800
 	1    0    0    -1  
@@ -521,4 +521,18 @@ F 3 "https://www.arduino.cc/en/Main/arduinoBoardUno" H 7800 3050 50  0001 C CNN
 $EndComp
 Text Notes 8350 3000 0    79   ~ 0
 InternalPullUp\nD2-D5\n\n\nInterrupt\nD2-D3
+Text GLabel 2850 3600 0    50   Output ~ 0
+AIR2_Y006
+Text GLabel 2800 2450 0    50   Input ~ 0
+WhiteSensor
+Text GLabel 2950 2350 0    50   Input ~ 0
+PE_Camera_B17
+Text GLabel 3050 2850 0    50   Input ~ 0
+PassSensor_Area2
+Text GLabel 3050 2950 0    50   Input ~ 0
+PassSensor_Area3
+Text GLabel 2850 4600 0    50   Output ~ 0
+AIR3_Y012
+Text GLabel 2400 4800 2    50   Input ~ 0
+DeviceGND
 $EndSCHEMATC

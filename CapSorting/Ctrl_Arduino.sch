@@ -521,18 +521,50 @@ F 3 "https://www.arduino.cc/en/Main/arduinoBoardUno" H 7800 3050 50  0001 C CNN
 $EndComp
 Text Notes 8350 3000 0    79   ~ 0
 InternalPullUp\nD2-D5\n\n\nInterrupt\nD2-D3
-Text GLabel 2850 3600 0    50   Output ~ 0
+Text GLabel 1750 2450 2    50   Output ~ 0
 AIR2_Y006
-Text GLabel 2800 2450 0    50   Input ~ 0
+Text GLabel 1750 2650 2    50   Input ~ 0
 WhiteSensor
-Text GLabel 2950 2350 0    50   Input ~ 0
+Text GLabel 1750 2350 2    50   Input ~ 0
 PE_Camera_B17
-Text GLabel 3050 2850 0    50   Input ~ 0
+Text GLabel 1750 2250 2    50   Input ~ 0
 PassSensor_Area2
-Text GLabel 3050 2950 0    50   Input ~ 0
+Text GLabel 1750 2550 2    50   Input ~ 0
 PassSensor_Area3
-Text GLabel 2850 4600 0    50   Output ~ 0
+Text GLabel 1750 2750 2    50   Output ~ 0
 AIR3_Y012
-Text GLabel 2400 4800 2    50   Input ~ 0
+Text GLabel 1750 2850 2    50   Input ~ 0
 DeviceGND
+$Comp
+L Connector_Generic:Conn_01x08 J?
+U 1 1 5FE46157
+P 1150 2550
+F 0 "J?" H 1068 3067 50  0000 C CNN
+F 1 "Conn_01x08" H 1068 2976 50  0000 C CNN
+F 2 "" H 1150 2550 50  0001 C CNN
+F 3 "~" H 1150 2550 50  0001 C CNN
+	1    1150 2550
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	1350 2850 1550 2850
+Wire Wire Line
+	1550 2850 1550 2950
+Wire Wire Line
+	1350 2950 1550 2950
+Wire Wire Line
+	1750 2850 1550 2850
+Connection ~ 1550 2850
+Wire Wire Line
+	1750 2250 1350 2250
+Wire Wire Line
+	1750 2350 1350 2350
+Wire Wire Line
+	1750 2450 1350 2450
+Wire Wire Line
+	1750 2550 1350 2550
+Wire Wire Line
+	1750 2650 1350 2650
+Wire Wire Line
+	1750 2750 1350 2750
 $EndSCHEMATC
