@@ -1,4 +1,0 @@
-(sym_lib_table
-  (lib (name spot-rescue)(type Legacy)(uri ${KIPRJMOD}/spot-rescue.lib)(options "")(descr ""))
-  (lib (name EKMC1601111)(type Legacy)(uri D:/SNY_Doc/Downloads/ライブラリ_200722/ライブラリ_200722/EKMC1601111.lib)(options "")(descr ""))
-)
